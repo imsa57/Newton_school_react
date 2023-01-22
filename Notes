@@ -1,0 +1,25 @@
+npm -- node pakage manager -> it is module
+dependency -> external library which is used in project.
+
+pakage.json -> a file which has data of all dependency and their version number
+
+script -> it has command of npm. with the help of these command we execute some process.
+
+
+difference between dependencies vs devdependencies -> those library which is required for local as well as hoisting/deploy and for build called dependencies  and  thoes library which is required for only local purpose/development purpose called devdependencies.
+
+. without pakage.json file we can run react project.But it is more important file..
+
+pakage-lock.json -> it has recored of all dependency in very detealed manner and it has recored of dependencies of dependency...
+
+public folder is first folder and index.js is first opening file of react project.
+
+build tool => react-script/parcel/webpack/gulp etc....(webpack is best among ) it is compiling all individual file and give you a final file for deploy...
+
+react-script is build tool(or compiler) which is helping me for running js project...
+
+ReactDOM -> it is a library and it helps react to for managing the DOM. without ReacrDOM no output appear in browser..
+
+ReactDOM is object and render is method of reactDOM.
+
+Render methode require two parameter first is components name and dom location Example->ReactDOM.render(<App/>,document.getElementById("root"));
